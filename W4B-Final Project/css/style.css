@@ -19,3 +19,6 @@ nav li a:hover {
 footer {
     background-color: #8f8056; height: 50px; width: 100%; position: fixed; left: 0; bottom: 0;
 }
+.fa-twitter-square{
+    float: right; color: cyan; bottom: 0; font-size: xx-large;
+}

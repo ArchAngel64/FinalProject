@@ -1,5 +1,5 @@
 body {
-    margin: 0px; padding: 0px; background-color: #fffae1;
+    margin: 0px; padding: 0px; background-image: linear-gradient(rgba(215, 198, 151, 1), rgba(172, 165, 104, 0.1)), url("img/heroimage.png");
 }
 .logo{
     float: left; height: 32px; width: 32px;
@@ -15,4 +15,7 @@ nav li a {
 }
 nav li a:hover {
     background-color: #b0aa8a; color: black;
+}
+footer {
+    background-color: #8f8056; height: 50px; width: 100%; position: fixed; left: 0; bottom: 0;
 }

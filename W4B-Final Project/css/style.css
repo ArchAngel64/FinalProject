@@ -1,14 +1,17 @@
 body {
-    margin: 0px; padding: 0px; background-image: linear-gradient(rgba(215, 198, 151, 1), rgba(172, 165, 104, 0.1)), url("img/heroimage.png");
+    margin: 0px; padding: 0px; background-image: linear-gradient(rgba(215, 198, 151, 1), rgba(172, 165, 104, 0.1)), url("img/bodyimage.png"); font-family: 'Montserrat', sans-serif;
+}
+h1 {
+    font-family: 'Caveat', cursive; float: left;
 }
 .logo{
     float: left; height: 32px; width: 32px;
 }
 nav {
-    background-color: #8f8056; text-align: center; padding: 0px; margin: 0px; width: 100%; list-style-type: none; position: sticky; display: inline-block;
+    background-color: #8f8056; text-align: center; padding: 0px; margin: 0px; width: 100%; list-style-type: none; position: sticky; display: inline-block; 
 }
 nav li {
-    float: right; padding: 1px; list-style-type: none;
+    float: right; padding: 15px; list-style-type: none; font-family: 'Caveat', cursive;
 }
 nav li a {
     display: block; padding: 10px; text-decoration: none; background-color: #8f8056; color: black; font-weight: bold; font-size: 15px;

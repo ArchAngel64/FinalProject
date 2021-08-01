@@ -8,13 +8,13 @@ h1 {
     float: left; height: 32px; width: 32px;
 }
 nav {
-    background-color: #8f8056; text-align: center; padding: 0px; margin: 0px; width: 100%; list-style-type: none; position: sticky; display: inline-block; 
+    background-color: #8f8056; text-align: center; padding: 0px; margin: 0px; width: 100%; list-style-type: none; position: sticky; display: inline-block; background-image: linear-gradient(rgba(143, 128, 86, 1), rgba(99, 90, 68, 0.1)), url("img/bodyimage.png");
 }
 nav li {
-    float: right; padding: 15px; list-style-type: none; font-family: 'Caveat', cursive;
+    float: right; padding: 15px; list-style-type: none;
 }
 nav li a {
-    display: block; padding: 10px; text-decoration: none; background-color: #8f8056; color: black; font-weight: bold; font-size: 15px;
+    display: block; padding: 10px; text-decoration: none; color: black; font-weight: bold; font-size: 15px;
 }
 nav li a:hover {
     background-color: #b0aa8a; color: black;
@@ -23,5 +23,17 @@ footer {
     background-color: #8f8056; height: 50px; width: 100%; position: fixed; left: 0; bottom: 0;
 }
 .fa-twitter-square{
-    float: right; color: cyan; bottom: 0; font-size: xx-large;
+    float: right; color: cyan; bottom: 0; font-size: xx-large; margin-left: 10; margin-right: 10;
+}
+.fa-reddit-square{
+    float: right; color: orange; bottom: 0; font-size: xx-large; margin-left: 10; margin-right: 10;
+}
+.fa-facebook-square{
+    float: right; color: blue; bottom: 0; font-size: xx-large; margin-left: 10; margin-right: 10;
+}
+.fa-youtube-square{
+    float: right; color: red; bottom: 0; font-size: xx-large; margin-left: 10; margin-right: 10;
+}
+.phonenum {
+    text-align: center; font-family: 'Montserrat', sans-serif; font-weight: 700; font-size: xx-small; bottom: -25px; position: relative; left: 100px;
 }

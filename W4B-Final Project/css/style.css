@@ -21,7 +21,7 @@ nav li a:hover {
     background-color: #b0aa8a; color: black;
 }
 footer {
-    background-image: linear-gradient(rgba(143, 128, 86, 1), rgba(99, 90, 68, 1)), url("img/bodyimage1.png"); height: 50px; width: 100%; position: fixed; left: 0; bottom: 0;
+    background-image: linear-gradient(rgba(143, 128, 86, 1), rgba(99, 90, 68, 1)), url("img/bodyimage1.png"); height: 60px; width: 100%; position: fixed; left: 0; bottom: 0;
 }
 .fa-twitter-square{
     float: right; color: cyan; bottom: 0; font-size: xx-large; margin-left: 10; margin-right: 10;
@@ -36,5 +36,8 @@ footer {
     float: right; color: red; bottom: 0; font-size: xx-large; margin-left: 10; margin-right: 10;
 }
 .phonenum {
-    text-align: center; font-family: 'Montserrat', sans-serif; font-weight: 700; font-size: xx-small; bottom: -25px; position: relative; left: 100px;
+    text-align: center; font-family: 'Montserrat', sans-serif; font-weight: 700; font-size: xx-small; bottom: 0px; left: 600px; position: fixed;
+}
+.italic {
+    font-style: italic;
 }

@@ -42,7 +42,7 @@ footer {
     font-style: italic;
 }
 .grigori {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.9)), url("https://i.ytimg.com/vi/A2p2XI5Mg50/maxresdefault.jpg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url("https://media1.tenor.com/images/4b970cf24ec244be8d293def2df3618d/tenor.gif?itemid=21499338");
     height: 100%; background-position: center; background-repeat: no-repeat; background-size: cover; position: relative;
 }
 .welcome {

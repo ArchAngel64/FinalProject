@@ -1,5 +1,5 @@
 body {
-    margin: 0px; padding: 0px; background-image: linear-gradient(rgba(215, 198, 151, 1), rgba(172, 165, 104, 0.1)); font-family: 'Montserrat', sans-serif; height: 1000px;
+    margin: 0px; padding: 0px; background-image: linear-gradient(rgba(215, 198, 151, 1), rgba(172, 165, 104, 0.1)); font-family: 'Montserrat', sans-serif; height: 2000px;
 }
 h1 {
     font-family: 'Caveat', cursive; float: left;
@@ -21,7 +21,7 @@ nav li a:hover {
     color: firebrick; font-style: italic;
 }
 footer {
-    background-image: linear-gradient(rgba(143, 128, 86, 1), rgba(99, 90, 68, 1)); height: 60px; width: 100%; position: fixed; left: 0; bottom: 0;
+    background-image: linear-gradient(rgba(143, 128, 86, 1), rgba(99, 90, 68, 1)); height: 60px; width: 100%; position: absolute; left: 0; bottom: -1350px;
 }
 .fa-twitter-square{
     float: right; color: cyan; bottom: 0; font-size: xx-large; margin-left: 10; margin-right: 10;
@@ -36,7 +36,7 @@ footer {
     float: right; color: red; bottom: 0; font-size: xx-large; margin-left: 10; margin-right: 10;
 }
 .phonenum {
-    text-align: center; font-family: 'Montserrat', sans-serif; font-weight: 700; font-size: xx-small; bottom: 0px; left: 600px; position: fixed;
+    text-align: center; font-family: 'Montserrat', sans-serif; font-weight: 700; font-size: xx-small; bottom: 0px; left: 600px; position: absolute;
 }
 .italic {
     font-style: italic;
@@ -68,5 +68,8 @@ footer {
     text-align: center;
 }
 .thanks {
-    text-align: center; position: fixed; font-family: 'Montserrat', sans-serif; font-weight: 700; font-size: xx-small; bottom: 0px;
+    text-align: center; position: absolute; font-family: 'Montserrat', sans-serif; font-weight: 700; font-size: xx-small; bottom: 0px;
+  }
+  .down {
+      margin-top: 400;
   }

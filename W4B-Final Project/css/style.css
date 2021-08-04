@@ -21,7 +21,7 @@ nav li a:hover {
     color: firebrick; font-style: italic;
 }
 footer {
-    background-image: linear-gradient(rgba(143, 128, 86, 1), rgba(99, 90, 68, 1)); height: 60px; width: 100%; position: fixed; left: 0; bottom: 0;
+    background-image: linear-gradient(rgba(143, 128, 86, 1), rgba(99, 90, 68, 1)); height: 60px; width: 100%; position: absolute; left: 0; bottom: -100;
 }
 .fa-twitter-square{
     float: right; color: cyan; bottom: 0; font-size: xx-large; margin-left: 10; margin-right: 10;
@@ -36,13 +36,13 @@ footer {
     float: right; color: red; bottom: 0; font-size: xx-large; margin-left: 10; margin-right: 10;
 }
 .phonenum {
-    text-align: center; font-family: 'Montserrat', sans-serif; font-weight: 700; font-size: xx-small; bottom: 0px; left: 600px; position: fixed;
+    text-align: center; font-family: 'Montserrat', sans-serif; font-weight: 700; font-size: xx-small; bottom: 0px; left: 600px; position: absolute;
 }
 .italic {
     font-style: italic;
 }
 .grigori {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://i.ytimg.com/vi/A2p2XI5Mg50/maxresdefault.jpg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.9)), url("https://i.ytimg.com/vi/A2p2XI5Mg50/maxresdefault.jpg");
     height: 100%; background-position: center; background-repeat: no-repeat; background-size: cover; position: relative;
 }
 .welcome {
@@ -52,5 +52,5 @@ footer {
       color: firebrick;
   }
   .thanks {
-    text-align: center; position: fixed; font-family: 'Montserrat', sans-serif; font-weight: 700; font-size: xx-small; bottom: 0px;
+    text-align: center; position: absolute; font-family: 'Montserrat', sans-serif; font-weight: 700; font-size: xx-small; bottom: 0px;
   }

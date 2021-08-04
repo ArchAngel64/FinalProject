@@ -46,8 +46,15 @@ footer {
     display: block; margin-left: auto; margin-right: auto; font-weight: 700; font-style: italic; font-family: 'Caveat', cursive; border-radius: 25px;
 }
 .europeandragon {
-    float: right; height: 250px; width: 250px;
+    float: right; height: 250px; width: 250px; box-shadow: -10px 10px burlywood;
 }
 .page2 {
     top: 250px; margin-top: 150px;
+}
+.allign {
+    text-align: center;
+}
+.leftbox {
+    float: left; background-image: linear-gradient(rgba(143, 128, 86, 1), rgba(99, 90, 68, 1)); width: 75%;
+    height: 250; font-weight: 700; font-style: italic; border-top-right-radius: 25px; border-bottom-right-radius: 25px;
 }

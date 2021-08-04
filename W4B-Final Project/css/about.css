@@ -21,7 +21,7 @@ nav li a:hover {
     color: firebrick; font-style: italic;
 }
 footer {
-    background-image: linear-gradient(rgba(143, 128, 86, 1), rgba(99, 90, 68, 1)); height: 60px; width: 100%; position: absolute; left: 0; bottom: -2310px;
+    background-image: linear-gradient(rgba(143, 128, 86, 1), rgba(99, 90, 68, 1)); height: 60px; width: 100%; position: absolute; left: 0; bottom: -2360px;
 }
 .fa-twitter-square{
     float: right; color: cyan; bottom: 0; font-size: xx-large; margin-left: 10; margin-right: 10;

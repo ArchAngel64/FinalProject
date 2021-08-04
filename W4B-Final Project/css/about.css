@@ -68,3 +68,6 @@ footer {
     float: left; background-image: linear-gradient(rgba(143, 128, 86, 1), rgba(99, 90, 68, 1)); width: 75%;
     height: 250; font-weight: 700; font-style: italic; border-top-right-radius: 25px; border-bottom-right-radius: 25px;
 }
+.thanks {
+    text-align: center; position: fixed; font-family: 'Montserrat', sans-serif; font-weight: 700; font-size: xx-small; bottom: 0px;
+  }

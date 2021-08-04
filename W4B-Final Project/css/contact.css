@@ -44,3 +44,6 @@ footer {
 .map {
     float: right; font-style: italic; font-weight: 700; font-size: small; margin-top: 100px;
 }
+.thanks {
+    text-align: center; position: fixed; font-family: 'Montserrat', sans-serif; font-weight: 700; font-size: xx-small; bottom: 0px;
+  }

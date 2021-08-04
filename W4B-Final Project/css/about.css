@@ -46,27 +46,26 @@ footer {
     display: block; margin-left: auto; margin-right: auto; font-weight: 700; font-style: italic; font-family: 'Caveat', cursive; border-radius: 25px;
 }
 .static {
-    float: right; position: absolute; height: 255px; width: 255px; box-shadow: -10px 10px burlywood; right: 50;
+    position: absolute; height: 255px; width: 255px; box-shadow: -10px 10px burlywood;
  opacity: 1;
    transition: opacity .25s ease-in-out;
    -moz-transition: opacity .25s ease-in-out;
-   -webkit-transition: opacity .25s ease-in-out; top: 500;
+   -webkit-transition: opacity .25s ease-in-out; margin-top: 50px; left: 550;
 }
 .active {
-    right: 240; height: 250px; width: 250px; right: 50; position: absolute;
+   height: 250px; width: 250px; position: absolute;  margin-top: 50px; left: 550;
 }
 .static:hover {
     opacity: 0;
+}
+.cap {
+    margin-top: 50px; text-align: center; font-weight: 700; background-image: linear-gradient(rgba(143, 128, 86, 1), rgba(99, 90, 68, 1)); width: 50%; margin-right: auto; margin-left: auto; border-radius: 25px;
 }
 .page2 {
     top: 250px; margin-top: 150px;
 }
 .allign {
     text-align: center;
-}
-.leftbox {
-    float: left; background-image: linear-gradient(rgba(143, 128, 86, 1), rgba(99, 90, 68, 1)); width: 75%;
-    height: 250; font-weight: 700; font-style: italic; border-top-right-radius: 25px; border-bottom-right-radius: 25px;
 }
 .thanks {
     text-align: center; position: fixed; font-family: 'Montserrat', sans-serif; font-weight: 700; font-size: xx-small; bottom: 0px;
